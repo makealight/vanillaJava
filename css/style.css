@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+}
+
+#backgroundPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mainBox {
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#textDiv {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+p,
+span {
+  color: white;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.705);
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.hidden {
+  display: none;
+}
+
+#clock {
+  margin: 0;
+  font-size: 1500%;
+  font-weight: bold;
+}
+
+#greeting {
+  font-size: 300%;
+  font-weight: bold;
+}
+#login-form,
+#todo-form {
+  margin: 10px 0;
+}
+input {
+  font-style: white;
+  width: 15vw;
+  height: 2vh;
+  padding: 5px 0px;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  font-size: 200%;
+}
+
+input::placeholder {
+  color: white;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.705);
+}
+
+input:focus {
+  outline: none;
+  color: white;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.705);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li > span {
+  font-size: 200%;
+}
+li > button {
+  color: white;
+  font-size: 200%;
+  background-color: transparent;
+  border: none;
+}
+#listBox {
+  width: 15vw;
+  height: 40vh;
+}
+#weatherBox {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 20px;
+}
+#weather > span {
+  font-size: 150%;
+}
+
+#quotesBox {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 20px;
+}
+#quote > span {
+  font-size: 120%;
+}
