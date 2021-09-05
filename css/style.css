@@ -49,6 +49,7 @@ img {
 #greeting {
   font-size: 300%;
   font-weight: bold;
+  margin: 5px 0;
 }
 #login-form,
 #todo-form {
